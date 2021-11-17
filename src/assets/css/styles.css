@@ -17,8 +17,6 @@ body {
 
 .container {
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .site-content {
@@ -32,4 +30,8 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+#myChart {
+  overflow: hidden;
 }
